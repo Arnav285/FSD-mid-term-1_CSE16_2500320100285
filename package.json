@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-"scripts": {
+  "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Arnav285/FSD-mid-term-1_CSE16_2500320100285.git"
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Arnav285/FSD-mid-term-1_CSE16_2500320100285#readme",
   "dependencies": {
+    "dotenv": "^18.0.9",
     "express": "^5.3.0",
     "express.js": "^1.0.0"
   },
